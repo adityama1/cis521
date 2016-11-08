@@ -14,13 +14,13 @@ Your response may span multiple lines.
 Do not include these instructions in your response.
 """
 
-python_concepts_question_2 = """
+python_concepts_question_2 = 'dict of dict'"""
 Type your response here.
 Your response may span multiple lines.
 Do not include these instructions in your response.
 """
 
-python_concepts_question_3 = """
+python_concepts_question_3 = '.join better O(n) op vs O(n^2) using + concat'"""
 Type your response here.
 Your response may span multiple lines.
 Do not include these instructions in your response.
@@ -31,15 +31,14 @@ Do not include these instructions in your response.
 ############################################################
 
 def extract_and_apply(l, p, f):
-    pass
+    result = [[].append(f(x)) for x in l if p(x)]
 
 def concatenate(seqs):
-    pass
+    return [elemnt for ele in seqs if len(ele) > 1 for elemnt in ele]
 
 def transpose(matrix):
-    pass
-
-############################################################
+    abs(1)
+##########################################################
 # Section 3: Sequence Slicing
 ############################################################
 
@@ -88,7 +87,8 @@ def to_mixed_case(name):
 class Polynomial(object):
 
     def __init__(self, polynomial):
-        pass
+        self.tup_poly = (polynomial[0],polynomial[1])
+
 
     def get_polynomial(self):
         pass
