@@ -32,7 +32,7 @@ class Polynomial(object):
     def __call__(self, x):
 
 
-    def simplify(self):
+     def simplify(self):
         pass
 
     def __str__(self):
